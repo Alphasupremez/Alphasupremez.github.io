@@ -29,7 +29,7 @@ url: "https://JumbledMachineScience.com" # the base hostname & protocol for your
 github_username:  Alphasupremez
 
 # Build settings
-theme: Moonwalk
+theme: cayman
 markdown: kramdown
 plugins:
   - jekyll-feed
