@@ -1,55 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Jumbled Machine Science
-# email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- 
   In the world of "Big Data", it can be hard to find all the information of how to get on the ground running.
   Finally, you found the place that hosts it all from the basic mathematical concepts, to the complexities of
   machine learning.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://JumbledMachineScience.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Alphasupremez
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "https://www.jumbledmachinescience.com"  # the base hostname & protocol for your site
+github_username: Alphasupremez  # Your GitHub username (for projects, repositories, etc.)
 
 # Build settings
-theme: jekyll-theme-cayman
-markdown: kramdown
+theme: jekyll-theme-cayman  # You are using the Cayman theme
+markdown: kramdown  # Markdown engine used for parsing content
 plugins:
-  - jekyll-feed
+  - jekyll-feed  # Add RSS feed generation plugin
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Author Information (Optional)
+author:
+  name: "jordan Smith"  # Add your name here
+  bio: "Data enthusiast with a passion for machine learning."  # A short bio
+  github: "Alphasupremez"  # Your GitHub handle (same as above)
+  linkedin: "your-linkedin-profile"  # Optional: your LinkedIn profile link
+
+
+# Social Sharing (Optional, if you want to link your social profiles)
+social:
+  twitter: "your-twitter-handle"
+  facebook: "your-facebook-page"
+  linkedin: "your-linkedin-profile"
+
+# Permalink settings (Optional)
+permalink: /:year/:month/:day/:title/  # Default permalink structure for blog posts
+
+# Exclude files and folders from being processed by Jekyll
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - "node_modules"
+
+# Collections (Optional, if you want to create custom collections like portfolio, etc.)
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:title/

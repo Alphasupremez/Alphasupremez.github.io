@@ -1,0 +1,34 @@
+/* assets/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Example Navbar styles */
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    border-right: 1px solid #444;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+  }
+  
