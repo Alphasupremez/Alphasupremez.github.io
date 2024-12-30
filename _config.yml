@@ -4,7 +4,7 @@ description: >-
   Finally, you found the place that hosts it all from the basic mathematical concepts, to the complexities of
   machine learning.
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: "https://www.jumbledmachinescience.com"  # the base hostname & protocol for your site
+url: ""  # the base hostname & protocol for your site
 github_username: Alphasupremez  # Your GitHub username (for projects, repositories, etc.)
 
 # Build settings
@@ -12,6 +12,7 @@ theme: jekyll-theme-cayman  # You are using the Cayman theme
 markdown: kramdown  # Markdown engine used for parsing content
 plugins:
   - jekyll-feed  # Add RSS feed generation plugin
+
 
 # Author Information (Optional)
 author:
